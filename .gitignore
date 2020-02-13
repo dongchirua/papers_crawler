@@ -1,3 +1,4 @@
 .scrapy/httpcache
 mongodb
 .vscode
+/crawl_jobs/
