@@ -13,7 +13,7 @@ Check `item.py` out for the details of scraped structure.
 2. `docker run -p 27017:27017 -d --name mongo mongo:4.2.3`
 3. run either below methods to install dependencies
 * `pip install -r requirement.txt`
-* `pipenv install --python 3.7`
+* `pipenv install --python 3.7` then `pipenv shell`
 4. run crawler, `scrapy crawl sciencedirect  --loglevel=INFO`, where `sciencedirect` is a spider
 * run `scrapy list` to display the list of crawlers 
 
